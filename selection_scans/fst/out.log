@@ -1,0 +1,22 @@
+
+VCFtools - 0.1.17
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf TE_norm_mm90_nodup_nosex_1alt.vcf
+	--weir-fst-pop AFR.txt
+	--weir-fst-pop outofAFR.txt
+	--keep AFR.txt
+	--keep outofAFR.txt
+	--keep AFR.txt
+	--keep outofAFR.txt
+
+Warning: Expected at least 2 parts in INFO entry: ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+Keeping individuals in 'keep' list
+After filtering, kept 44 out of 45 Individuals
+Outputting Weir and Cockerham Fst estimates.
+	Fst: Only using diploid sites.
+Weir and Cockerham mean Fst estimate: 0.013851
+Weir and Cockerham weighted Fst estimate: 0.06007
+After filtering, kept 6114 out of a possible 6114 Sites
+Run Time = 0.00 seconds
