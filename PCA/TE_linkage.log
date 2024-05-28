@@ -1,0 +1,57 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-extra-chr
+  --double-id
+  --indep-pairwise 50 10 0.1
+  --out TE_linkage
+  --set-missing-var-ids @:#
+  --vcf TE_sorted.vcf
+  --vcf-half-call m
+
+Hostname: virtual-machine
+Working directory: /home/shadi/Desktop/S3_Project/pca
+Start time: Sun May 19 02:12:18 2024
+
+Random number seed: 1716077538
+11632 MB RAM detected; reserving 5816 MB for main workspace.
+--vcf: TE_linkage-temporary.bed + TE_linkage-temporary.bim +
+TE_linkage-temporary.fam written.
+6407 variants loaded from .bim file.
+45 people (0 males, 0 females, 45 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to TE_linkage.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 45 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.983662.
+6407 variants and 45 people pass filters and QC.
+Note: No phenotypes present.
+Pruned 364 variants from chromosome 1, leaving 148.
+Pruned 360 variants from chromosome 2, leaving 156.
+Pruned 316 variants from chromosome 3, leaving 133.
+Pruned 323 variants from chromosome 4, leaving 143.
+Pruned 272 variants from chromosome 5, leaving 116.
+Pruned 285 variants from chromosome 6, leaving 122.
+Pruned 250 variants from chromosome 7, leaving 98.
+Pruned 214 variants from chromosome 8, leaving 95.
+Pruned 207 variants from chromosome 9, leaving 75.
+Pruned 176 variants from chromosome 10, leaving 104.
+Pruned 207 variants from chromosome 11, leaving 90.
+Pruned 228 variants from chromosome 12, leaving 95.
+Pruned 158 variants from chromosome 13, leaving 72.
+Pruned 140 variants from chromosome 14, leaving 69.
+Pruned 127 variants from chromosome 15, leaving 50.
+Pruned 102 variants from chromosome 16, leaving 47.
+Pruned 129 variants from chromosome 17, leaving 49.
+Pruned 120 variants from chromosome 18, leaving 62.
+Pruned 92 variants from chromosome 19, leaving 49.
+Pruned 74 variants from chromosome 20, leaving 45.
+Pruned 59 variants from chromosome 21, leaving 30.
+Pruned 41 variants from chromosome 22, leaving 22.
+Pruned 229 variants from chromosome 23, leaving 54.
+Pruned 10 variants from chromosome 24, leaving 0.
+Pruning complete.  4483 of 6407 variants removed.
+Marker lists written to TE_linkage.prune.in and TE_linkage.prune.out .
+
+End time: Sun May 19 02:12:18 2024
