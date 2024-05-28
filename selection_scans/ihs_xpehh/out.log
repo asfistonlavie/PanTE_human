@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf outofAFR_TE_norm_mm90_1alt.vcf.gz
+	--chr chr9
+	--recode
+	--remove-filtered-all
+	--stdout
+
+Using zlib version: 1.2.13
+Warning: Expected at least 2 parts in INFO entry: ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+After filtering, kept 21 out of 21 Individuals
+Outputting VCF file...
+After filtering, kept 265 out of a possible 6025 Sites
+Run Time = 0.00 seconds
