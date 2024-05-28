@@ -1,0 +1,19 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf TE_norm_mm90_nodup_1alt.vcf
+	--not-chr chrX
+	--not-chr chrY
+	--recode-INFO-all
+	--recode
+	--stdout
+	--remove-indv CHM13
+
+Warning: Expected at least 2 parts in INFO entry: ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+Excluding individuals in 'exclude' list
+After filtering, kept 44 out of 45 Individuals
+Outputting VCF file...
+After filtering, kept 6114 out of a possible 6407 Sites
+Run Time = 0.00 seconds
