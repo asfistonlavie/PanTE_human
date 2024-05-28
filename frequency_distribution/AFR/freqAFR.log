@@ -1,0 +1,14 @@
+
+VCFtools - 0.1.17
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf AFR_TE_norm_mm90_1alt.vcf
+	--freq
+	--out freqAFR
+
+Warning: Expected at least 2 parts in INFO entry: ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+After filtering, kept 23 out of 23 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 6407 out of a possible 6407 Sites
+Run Time = 1.00 seconds
